@@ -4,8 +4,8 @@ int main()
     int n;
     scanf("%d", &n);
 
-    int s = n - 1;
-    int k = 1;
+    int s = 0;
+    int k = n+(n-1);
 
     for (int i = 1; i <= n; i++)
     {
@@ -14,14 +14,14 @@ int main()
             printf(" ");
         }
 
-        s--;
+        s++;
 
         for (int l = 1; l <= k; l++)
         {
             printf("*");
         }
 
-        k = k + 2;
+        k = k - 2;
         printf("\n");
     }
 
