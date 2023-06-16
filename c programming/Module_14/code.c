@@ -1,19 +1,17 @@
 #include <stdio.h>
 
-int sum(int x, int y);
 int main()
 {
-    int a = sum(30, 20);
+    int x = 10;
+    //printf("%p\n", &x);
+    int *q = &x;
+    printf("%p\n", q);
+    // Dereference
+    printf("%d\n",*q);
 
-    printf("%d", a);
-
-    // printf("%d",sum(10,20));
+    *q = 500;
+    printf("%d\n",x);
+    printf("%p\n",&x);
 
     return 0;
-}
-
-int sum(int x, int y)
-{
-    int z = x + y;
-    return z;
 }
