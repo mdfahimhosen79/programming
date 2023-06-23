@@ -11,7 +11,7 @@ int main()
 
     *q = 500;
     printf("%d\n",x);
-    printf("%p\n",&x);
+    
 
     return 0;
 }

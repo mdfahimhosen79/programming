@@ -1,4 +1,7 @@
-x er address-0061FF1C
-ptr er value-0061FF1C
-ptr er address-0061FF18
-ptr er Memory-4
+-2
+1
+3
+
+3
+-2
+1
